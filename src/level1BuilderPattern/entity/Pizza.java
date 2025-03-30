@@ -1,4 +1,4 @@
-package builders;
+package level1BuilderPattern.entity;
 
 public class Pizza {
     private String size;

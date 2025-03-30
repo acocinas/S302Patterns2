@@ -1,4 +1,6 @@
-import controller.StartMain;
+package level1BuilderPattern;
+
+import level1BuilderPattern.controller.StartMain;
 
 public class Main {
     public static void main(String[] args) {

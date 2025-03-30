@@ -1,6 +1,7 @@
-package director;
+package level1BuilderPattern.director;
 
-import interfaces.PizzaBuilder;
+import level1BuilderPattern.entity.Pizza;
+import level1BuilderPattern.interfaces.PizzaBuilder;
 
 public class MasterPizzaDirector {
     private PizzaBuilder pizzaBuilder;
@@ -13,7 +14,7 @@ public class MasterPizzaDirector {
         pizzaBuilder.buildDough();
         pizzaBuilder.buildToppings();
     }
-    public builders.Pizza getPizza(){
+    public Pizza getPizza(){
         return pizzaBuilder.getPizza();
     }
 }

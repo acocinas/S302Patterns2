@@ -1,6 +1,6 @@
-package interfaces;
+package level1BuilderPattern.interfaces;
 
-import builders.Pizza;
+import level1BuilderPattern.entity.Pizza;
 
 public interface PizzaBuilder {
     void buildSize();

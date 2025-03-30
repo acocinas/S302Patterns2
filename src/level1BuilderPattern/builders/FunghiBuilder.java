@@ -1,6 +1,7 @@
-package builders;
+package level1BuilderPattern.builders;
 
-import interfaces.PizzaBuilder;
+import level1BuilderPattern.entity.Pizza;
+import level1BuilderPattern.interfaces.PizzaBuilder;
 
 public class FunghiBuilder implements PizzaBuilder{
     private Pizza pizza;
