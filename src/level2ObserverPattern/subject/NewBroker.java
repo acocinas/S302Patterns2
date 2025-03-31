@@ -25,7 +25,7 @@ public class NewBroker implements Broker {
         }
     }
     public void stockExchange(String change){
-        System.out.println("Nueva actualización en bolsa " + change);
+        System.out.println("Nueva actualización en bolsa :" + change);
         notifyStockExchangeAgency(change);
     }
 
