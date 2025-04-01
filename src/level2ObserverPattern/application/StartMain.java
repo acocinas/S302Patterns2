@@ -1,11 +1,8 @@
-package level2ObserverPattern.controller;
+package level2ObserverPattern.application;
 
 import level2ObserverPattern.interfaces.StockExchangeAgencies;
 import level2ObserverPattern.observer.NewStockAgency;
 import level2ObserverPattern.subject.NewBroker;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class StartMain {
     public static void start(){

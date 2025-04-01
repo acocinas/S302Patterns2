@@ -1,6 +1,6 @@
 package level2ObserverPattern;
 
-import level2ObserverPattern.controller.StartMain;
+import level2ObserverPattern.application.StartMain;
 
 public class Main {
     public static void main(String[] args){
