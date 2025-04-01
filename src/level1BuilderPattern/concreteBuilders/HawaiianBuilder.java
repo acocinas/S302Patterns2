@@ -1,6 +1,6 @@
-package level1BuilderPattern.builders;
+package level1BuilderPattern.concreteBuilders;
 
-import level1BuilderPattern.entity.Pizza;
+import level1BuilderPattern.model.Pizza;
 import level1BuilderPattern.interfaces.PizzaBuilder;
 
 public class HawaiianBuilder implements PizzaBuilder {

@@ -1,27 +1,30 @@
-package level1BuilderPattern.builders;
+package level1BuilderPattern.concreteBuilders;
 
-import level1BuilderPattern.entity.Pizza;
+import level1BuilderPattern.model.Pizza;
 import level1BuilderPattern.interfaces.PizzaBuilder;
 
-public class FunghiBuilder implements PizzaBuilder{
+public class VegetarianBuilder implements PizzaBuilder {
     private Pizza pizza;
 
-    public FunghiBuilder() {
+    public VegetarianBuilder() {
         this.pizza = new Pizza();
     }
+
     @Override
     public void buildSize() {
-        pizza.setSize("Extra large");
+        pizza.setSize("Medium");
     }
 
     @Override
     public void buildDough() {
-        pizza.setDough("Napolitana");
+        pizza.setDough("Romana");
+
     }
 
     @Override
     public void buildToppings() {
-        pizza.setToppings("Tomato, mozzarella, mushrooms, ham");
+        pizza.setToppings("Tomato, mozzarella, eggplant, zucchini");
+
     }
 
     @Override
